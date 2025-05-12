@@ -1,0 +1,92 @@
+html{
+background-color: rgb(241, 246, 249);
+}
+#head{
+background-color: rgb(57, 72, 103);
+}
+#footer{
+background-color: rgb(57, 72, 103);
+}
+#footer p,
+#footer a {
+  color: rgb(241, 246, 249) !important;
+}
+
+#features{
+background-color: rgb(241, 246, 249);
+}
+body {
+font-size:18px;
+  font-family: 'Cormorant', serif;
+}
+header h1 {
+  color: rgb(241, 246, 249) !important;
+}
+header,
+header a,
+header h1,
+header .nav-link {
+  color: rgb(241, 246, 249) !important;
+}
+#hero p{
+color: rgb(33, 42, 62);
+font-weight:400;
+font-size:22px !important;
+}
+#features p{
+color: rgb(33, 42, 62);
+font-weight:400;
+font-size:21px !important;
+}
+#examples p{
+color: rgb(33, 42, 62);
+font-weight:400;
+font-size:22px !important;
+}
+#features > div > div > div > h3{
+margin-bottom:20px;
+}
+
+#features > div > div > div{
+padding-left:20px;
+padding-right:20px;
+}
+.big-img {
+  border: 8px solid rgb(33, 42, 62);
+  border-radius: 2px;
+}
+
+
+@media (min-width:766px) and (max-width:991px){
+#h1{
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+}
+}
+@media (max-width: 765px) {
+  .container header ul.nav {
+    display: flex;
+    justify-content: center;  /* Center the navigation items horizontally */
+    padding-left: 0;           /* Remove default padding */
+  }
+
+  .container header ul.nav li {
+    list-style-type: none;     /* Remove default list styles */
+    padding: 0 10px;           /* Add some space between the items */
+  }
+
+  .container header ul.nav a {
+    text-align: center;        /* Ensure text in the links is centered */
+  }
+}
+@media (max-width: 992px) {
+  .custom-img {
+    width: 100%;
+    height: 300px; /* Veya istediğin bir sabit yükseklik */
+    object-fit: cover; /* Görselin içeriğini kırpar ama taşırmaz */
+    object-position: top; /* Üst kısımdan başlatır, alt kısmı kesilir */
+  }
+}
+
+
