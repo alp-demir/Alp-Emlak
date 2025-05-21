@@ -7,6 +7,31 @@ background-color: rgb(57, 72, 103);
 #footer{
 background-color: rgb(57, 72, 103);
 }
+#footer > div{
+background-color: rgb(57, 72, 103) !important;
+}
+#footer > div > div{
+background-color: rgb(57, 72, 103) !important;
+}
+#team{
+background-color: rgb(241, 246, 249);
+}
+#team p{
+color: rgb(33, 42, 62);
+font-weight:400;
+font-size:22px !important;
+}
+#team h1{
+color: rgb(33, 42, 62) !important;
+font-weight:600;
+font-size:2.5rem;
+}
+#team button{
+color: rgb(241, 246, 249);
+background-color: rgb(57, 72, 103);
+font-weight:400;
+font-size:19px;
+}
 #footer p,
 #footer a {
   color: rgb(241, 246, 249) !important;
@@ -16,7 +41,7 @@ background-color: rgb(57, 72, 103);
 background-color: rgb(241, 246, 249);
 }
 body {
-font-size:18px;
+font-size:19px;
   font-family: 'Cormorant', serif;
 }
 header h1 {
@@ -58,11 +83,11 @@ padding-right:20px;
 
 
 @media (min-width:766px) and (max-width:991px){
-#h1{
-text-align:center;
-margin-left: auto;
-margin-right: auto;
-}
+    #h1{
+      text-align:center;
+       margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media (max-width: 765px) {
   .container header ul.nav {
@@ -88,5 +113,7 @@ margin-right: auto;
     object-position: top; /* Üst kısımdan başlatır, alt kısmı kesilir */
   }
 }
+
+
 
 
